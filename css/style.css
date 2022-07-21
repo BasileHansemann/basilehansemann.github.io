@@ -1,0 +1,54 @@
+
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/patrick-fore-V6s1cmE39XM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   background-color: rgba(255, 255, 255, 0.5);
+   height: 90%;
+   width: 90%;
+   margin: 5rem auto;
+   padding: 5rem ;
+   
+
+}
+
+
+
+.left-content {
+   
+    background-color: black;
+    order: 1;
+    width: 30%;
+    height: 100%;
+  
+  
+
+    
+}
+.right-content {
+    order: 3;
+    background-color: red;
+    width: 70%;
+    height: 70%;
+    justify-content: end;
+}
+
+.entete {
+    order: 2;
+    background-color: green;
+    width: 70%;
+    height: 30%;
+}
